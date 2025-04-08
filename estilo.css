@@ -1,0 +1,60 @@
+body{
+    font-size: 25px;
+}
+
+header{
+    display: flex;/*Definir meu layouyt flexivel*/
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(211, 187, 187, 0.815);
+
+}
+header .profile img{
+    width: 280px; 
+    height: 350px;
+    border-radius: 20%;
+    padding: 20%;
+}
+     header .links a{
+        text-decoration: none;
+        color:rgb(163, 20, 56) ;
+        font-weight: bold;
+        margin: 0 10px; 
+     }
+     .descricao {
+        text-align: center;
+        margin: 20px;
+     }
+     .conteudo{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+     }
+     .bloco{
+        width: 30%;
+        background-color: rgb(245, 233, 233);
+        padding: 15px;
+        border: 1px solid #180101
+     }
+
+     .falacomigobb{
+        text-align: center;
+        margin: 80px;
+     }
+     form{
+        display: inline-block;
+        text-align: left;
+     }
+     form label{
+        display: block;
+        margin: 5px 0;
+     }
+     form input{
+        font-size: 30px;
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border: 1px solid #140e0e;
+        border-radius: 8px;
+
+     }
