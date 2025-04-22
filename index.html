@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="estilo.css" />
     <title>Currículo</title>
   </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
   <body>
     <header>
       <div class="profile">
@@ -25,6 +28,7 @@
     </header>
     <section class="descricao">
       <h1><p>Descricao sobre mim</p></h1>
+      <button id="botao"> Continue aqui</button>
     </section>
 
     <!--Aqui vai começar o primeiro bloco de informção-->
@@ -45,7 +49,9 @@
     <!--Formulario-->
     <section class="falacomigobb">
         <h2>Interessado no meu curriculo?</h1>
-        <form>
+        <form action="https://formspree.io/f/xnndqjkq"
+        method="POST">
+          
             <label for="email"> Email:</label>
             <input placeholder="@gmail.com" "email" id="email" name="email" required>
             <label for="telefone"> Telefone:</label> 
@@ -55,18 +61,22 @@
     </section>
     <section class="conteudo">
         <div class="bloco">
+        <div id="card">
           <h2>Sobre Mim</h2>
           <p>Fale sobre si proprio, suas paixões e objetivos </p>
+        </div>
         </div>
         <div class="bloco">
           <h2>Meu Canal</h2>
           <iframe width="835" height="380" src="https://www.youtube.com/embed/0CR9fNB9fds?si=qEDZRelokD2JoAd1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           
         </div>
+        
         <div class="bloco">
           <h2>Mensagem Positiva</h2>
           <p>Olá beleza, você poderia me dar muitos roblox? é que eu achei a sua roupa muito linda.. ME DA ROBLOX</p>
         </div>
-      </section>
+  <script src="index.js"> </script>
+  </section>
   </body>
 </html>
